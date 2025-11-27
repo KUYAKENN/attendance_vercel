@@ -118,7 +118,7 @@ function CallbackContent() {
       <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full text-center overflow-hidden relative">
         {/* Confetti-like decorations */}
         <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
-        
+
         {/* Animated Success Checkmark */}
         <div className="relative mb-8">
           <div className="w-28 h-28 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto shadow-lg">
@@ -161,29 +161,8 @@ function CallbackContent() {
           ✨ You now have full access to all features
         </p>
 
-        {/* CTA Button */}
-        <a
-          href="/dashboard"
-          className="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 via-blue-700 to-indigo-700 hover:from-blue-700 hover:via-blue-800 hover:to-indigo-800 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl gap-2"
-        >
-          <span>Get Started</span>
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M13 7l5 5m0 0l-5 5m5-5H6"
-            />
-          </svg>
-        </a>
-
         {/* Footer */}
-        <p className="mt-6 text-gray-400 text-xs">
+        <p className="mt-2 text-gray-400 text-xs">
           Welcome to the QLogs family! 💙
         </p>
       </div>
